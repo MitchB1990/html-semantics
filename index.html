@@ -2,27 +2,30 @@
 <html lang="en">
     <head>
           <meta charset="utf-8">
-          <title>Semantic Elements</title>
+          <title>Semantic Elements Summary</title>
     </head>
     <body>
         <header>
           <nav>
             <a href="#semantic-elements-anchor">
-              Semantic Elements
+              Semantic Elements Summary
             </a>
+            <br />
             <a href="#nav-2">
-              Nav 2
+              Douglas Adams
             </a>
+            <br />
             <a href="#nav-3">
-              Nav 3
+              Other Tag Examples
             </a>
+            <br />
           </nav>
         </header>
         <section>
-          <a id="semantic-elements-anchor">
-            <h1>Semantic Elements</h1>
+          <a id="semantic-elements-anchor"></a>
+            <h1>Semantic Elements Summary</h1>
             <p>Semantic elements clearly describe their meaning and usage to both the browser and developer. These tags also help make a document/website more searchable and create a website structure that is more easily understood. These tags also are used by assistive devices and apps to help render/translate content in an accessible manner.</p>
-            <strong>Examples of these tags include:</strong>
+            <strong>Examples of semantic element tags include:</strong>
             <ul>
                 <li>header</li>
                 <li>footer</li>
@@ -34,18 +37,140 @@
             <img src="media/images/html5demo1.jpg" alt="Outline of semantic elements.">
         </section>
         <section>
-          <a id="nav-2">
-            <h1>Nav 2</h1>
-            <p>Nav 2 Paragraph</p>
-            <strong>Examples:</strong>
+          <a id="nav-2"></a>
+            <h1>Douglas Adams Quote</h1>
+            <figure>
+                <blockquote cite="https://www.goodreads.com/quotes/search?utf8=%E2%9C%93&q=Douglas+Adams&commit=Search">
+                  <p>Don't Panic.</p>
+                </blockquote>
+                <figcaption>—Douglas Adams,
+                  <cite>The Hitchiker's Guide to the Galaxy</cite>
+                </figcaption>
+            </figure>
         </section>
         <section>
-          <a id="nav-3">
-            <h1>Nav 3</h1>
-            <p>Nav 3 Paragraph</p>
-            <strong>Examples:</strong>
-        </section>
+          <a id="nav-3"></a>
+            <h1>Other Tag Examples</h1>
+            <p>Normal text for reference. <s>This is an example of a strikethrough tag.</s></p>
+            <p>Normal text for reference. <em>This is an example of an emphasis tag.</em></p>
+            <p>Normal text for reference. <sup>This is an example of superscript.</sup></p>
+            <p>Normal text for reference. <sub>This is an example of subscript.</sub></p>
+            <h1>Table Example</h1>
+            <table class="striped">
+	             <caption>D&D Ability Score Point Cost</caption>
+	              <thead>
+		                <tr>
+                      <th>Score</th>
+                      <th>Cost</th>
+		                </tr>
+	              </thead>
+	              <tbody>
+		                <tr>
+                      <td>8</td>
+                      <td>0</td>
+		                </tr>
+		                 <tr>
+                       <td>9</td>
+                       <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>11</td>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <td>12</td>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <td>13</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>14</td>
+                      <td>7</td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>9</td>
+                    </tr>
+              </tbody>
+        </table>
+        <br />
+
+        <label>Strength:</label>
+
+        <meter id="strength"
+               min="0" max="20"
+               low="9" high="13" optimum="18"
+               value="12">
+            at 12/20
+        </meter>
+        <br />
+        <label>Dexterity:</label>
+
+        <meter id="dexterity"
+               min="0" max="20"
+               low="9" high="13" optimum="18"
+               value="10">
+            at 10/20
+        </meter>
+        <br />
+        <label>Constitution:</label>
+
+        <meter id="constitution"
+               min="0" max="20"
+               low="9" high="13" optimum="18"
+               value="20">
+            at 20/20
+        </meter>
+        <br />
+        <label>Intelligence:</label>
+
+        <meter id="intelligence"
+               min="0" max="20"
+               low="9" high="13" optimum="18"
+               value="13">
+            at 13/20
+        </meter>
+        <br />
+        <label>Wisdom:</label>
+
+        <meter id="wisdom"
+               min="0" max="20"
+               low="9" high="13" optimum="18"
+               value="3">
+            at 03/20
+        </meter>
+        <br />
+        <label>Charisma:</label>
+
+        <meter id="charisma"
+               min="0" max="20"
+               low="9" high="13" optimum="18"
+               value="13">
+            at 13/20
+        </meter>
+        <br />
+        <br />
+      </section>
         <footer>
+          <strong>Footer Navigation</strong>
+          <br />
+          <a href="#semantic-elements-anchor">
+            Semantic Elements Summary
+          </a>
+          <br />
+          <a href="#nav-2">
+            Douglas Adams
+          </a>
+          <br />
+          <a href="#nav-3">
+            Other Tag Examples
+          </a>
         </footer>
     </body>
 </html>
